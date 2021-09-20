@@ -9,24 +9,12 @@ a{
   text-decoration: none;
 }
 
-header{
-  display: flex;
-  flex-direction: column; 
-  position:fixed;
-  z-index: 10;
-  justify-content: center;
-  background-color: white;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .header {
  display: flex;
  justify-content: center;
  align-items: center;
  margin-bottom: 20px;
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 .container{
@@ -54,7 +42,6 @@ header{
 
 
 .top-wrapper{
-  padding-top: 100px;
   background-color: #f7f7f7;
 
 }
@@ -131,8 +118,4 @@ header{
 .right{
   display: flex;
   justify-content: space-evenly;
-}
-
-.option {
-   text-decoration: white;
 }
