@@ -1,0 +1,121 @@
+body,html{
+margin: 0;
+  
+  width: 100%;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.header {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 20px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto; 
+  margin-right: auto;
+}
+  
+.nav a{
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+
+}
+
+
+.top-wrapper{
+  background-color: #f7f7f7;
+
+}
+
+.upperbody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.upperbody p{
+  padding-bottom: 5px;
+}
+
+.btn{
+  background-color: rgb(122, 201, 44);
+  padding: 10px 20px;
+  box-shadow: 0px 7px green;
+  color: white;
+  display: inline-block;
+}
+
+.join{
+  color: white;
+}
+
+.btn:active{
+  position: relative;
+  box-shadow: none;
+  top: 7px;
+}
+
+.lowerbody a{
+  color: #f7f7f7;
+}
+
+.title{
+ margin: 30px;
+}
+
+.cardcontainer1{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.cardcontainer2{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.card{
+  width: 50px 70px;
+  background-color: rgb(122, 201, 44);
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #f7f7f7;
+  width: 25%;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right{
+  display: flex;
+  justify-content: space-evenly;
+}
