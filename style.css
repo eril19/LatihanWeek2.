@@ -15,6 +15,7 @@ a{
  align-items: center;
  margin-bottom: 20px;
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
 }
 
 .container{
@@ -96,6 +97,10 @@ a{
   margin-bottom: 50px;
 }
 
+.seemore {
+  text-decoration: underline;
+}
+
 .card{
   width: 50px 70px;
   background-color: rgb(122, 201, 44);
@@ -118,4 +123,17 @@ a{
 .right{
   display: flex;
   justify-content: space-evenly;
+}
+
+.option {
+   text-decoration: white;
+}
+
+.list1 li, .list2 li{
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.list1 h3 ,.list2 h3{
+  text-decoration: underline;
 }
