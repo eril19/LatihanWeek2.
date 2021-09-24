@@ -1,0 +1,37 @@
+@media (max-width: 1000px){
+    
+    .card{
+        width: max-content;
+        
+    }
+}
+
+@media (max-width: 670px){
+    .cardcontainer1,.cardcontainer2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .card{
+        width: 75%;
+    }
+
+    .title1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .card{
+        
+        margin: 15px 0;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
